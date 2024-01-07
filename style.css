@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header div{
+    width: 100%;
+}
+header{
+    background-color: rgb(236, 220, 252);
+    height: 20%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 20% auto 25%;
+}
+header div img{
+    width: 100%;
+    border: none;
+    height: 100%;
+    margin: 0.2%;
+}
+h2{
+    font-weight: bolder;
+    color: blueviolet;
+    font-size: 250%;
+    text-align:center;
+}
+header div input{
+    outline: none;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid blueviolet;
+    margin-top: 10%;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+    margin-top: 0.2%;
+    background-color: whitesmoke;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid rgb(205, 151, 255);
+}
+#nav-bar a{
+    color: darkmagenta;
+    text-decoration: none;
+}
+#nav-bar a:hover{
+    color:darkorange;
+}
+#banner img{
+    height: 0%;
+    width: 100%;
+    opacity: 0.5;
+}
+hr{
+    margin: 5% auto 5% auto;
+}
+#home{
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+}
+#home div img,#maindiv div img{
+    border: 4px solid blueviolet;
+    width: 58%;
+    margin: 5% 20% 5% 20%;
+    opacity: 0.6;
+    cursor: pointer;
+}
+#home div h1{
+    color: blueviolet;
+    margin-left: 10%;
+    margin-top: 13%;
+    font-size: 35px;
+}
+#home div p,#maindiv div p{
+    color: rgb(253, 69, 69);
+    font-size: 20px;
+    margin: 2% auto auto 10%;
+    font-weight: bolder;
+}
+#home div a input{
+    font-size: 20px;
+    margin: 4% auto auto 10%;
+    padding: 1% 4% 1% 4%;
+    background-color: rgb(165, 73, 252);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    border-radius: 0%;
+}
+#home div a input:hover{
+    background-color: red;
+}
+#socialicon{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+   
+}
+#socialicon a i{
+    font-size: 28px;
+    color: black;
+    transition: font-size 0.2s ease-in-out;
+}
+#socialicon a i:hover{
+    font-size: 35px;
+}
+#video h2{
+    margin-bottom: 2%;
+    text-decoration: underline;
+}
+#video div{
+    border: 2px solid rgb(205, 151, 255);
+}
+.showvideo{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+}
+.showvideo div img{
+    width: 100%;
+    height: 100%;
+}
+.showvideo div h3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2% auto auto 2%;
+    color: rgba(0, 0, 139, 0.925);
+}
+.showvideo div p,span{
+    margin: auto auto auto 2%;
+    color: darkred;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.showvideo div span{
+    /* color: darkblue; */
+    color:rgb(253, 37, 37);
+    font-weight: bold;
+}
+.showvideo div a{
+    font-size: x-large;
+    text-decoration: none;
+    margin: 15% auto auto 15%;
+}
+#morevideo{ 
+    font-size: 25px;
+    text-align: center;
+}
+#maindiv{
+    margin: 2% auto auto auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+b{
+    color: blue;
+}
+u{
+    color: blueviolet;
+}
+#masterdiv{
+    margin: 3% auto 2% auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#masterdiv div{
+    /* border: 1px solid blueviolet; */
+    text-align: center;
+    width: 100%;
+}
+#masterdiv div h2{
+    color: red;
+    font-size: 24px;
+}
+#masterdiv div i{
+    font-size: 24px;
+    color: blue;
+}
+#footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 8%;
+}
+#footer h1{
+    color: white;
+    text-align: center;
+    padding-top: 3%;
+}
+#footer div i{
+    color: white;
+    font-size: 40px;
+    margin-left: 50%;
+}
+#footer hr{
+    margin: 1%;
+}
+#end{
+    background-color: blueviolet;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
